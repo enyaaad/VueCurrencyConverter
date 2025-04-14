@@ -26,7 +26,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/:pathMatch(.*)*',
     name: 'not-found',
-    component: () => import('@/shared/ui/NotFound/NotFound.vue'), // по вкусу
+    component: () => import('@/pages/NotFound/NotFound.vue'),
     meta: {
       title: 'Страница не найдена',
     },
